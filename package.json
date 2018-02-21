@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "coverage": "istanbul cover _mocha index.test.js -x *.test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -34,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/aa-ng/ru-fighter/issues"
   },
-  "homepage": "https://github.com/aa-ng/ru-fighter#readme"
+  "homepage": "https://github.com/aa-ng/ru-fighter#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5"
+  }
 }
