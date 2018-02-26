@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "coverage": "istanbul cover _mocha index.test.js -x *.test.js"
+    "coverage": "istanbul cover _mocha index.test.js -x *.test.js",
+    "test": "mocha"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -37,6 +38,7 @@
   },
   "homepage": "https://github.com/aa-ng/ru-fighter#readme",
   "devDependencies": {
-    "istanbul": "^0.4.5"
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.1"
   }
 }
